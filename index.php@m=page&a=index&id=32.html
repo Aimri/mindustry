@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!-- Google Tag Manager -->
+	<script>
+		(function (w, d, s, l, i) {
+			w[l] = w[l] || [];
+			w[l].push({
+				'gtm.start': new Date().getTime(),
+				event: 'gtm.js'
+			});
+			var f = d.getElementsByTagName(s)[0],
+				j = d.createElement(s),
+				dl = l != 'dataLayer' ? '&l=' + l : '';
+			j.async = true;
+			j.src =
+				'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+			f.parentNode.insertBefore(j, f);
+		})(window, document, 'script', 'dataLayer', 'GTM-5B59D59');
+	</script>
+	<!-- End Google Tag Manager -->
+	<script>
+// 
+function getcode() {
+			//将数字、小写字母及大写字母输入
+			var str = "1234567890qwertyuioplkjhgfdsazxcvbnmQWERTYUIOPLKJHGFDSAZXCVBNM";
+			var res = '';
+			for (var i = 0; i < 4; i++) {
+				res += str[Math.floor(Math.random() * 60 + 2)];
+			}
+			return res;
+		}
+		var that = this;
+		var code = "8235";
+
+		function flushCode() {
+			let code = this.getcode()
+			that.code = code;
+			// 刷新
+			$("#ggetcode").attr('src', 'https://www.ym94.cn/net/getCode?code=' + code);
+		}
+		//开启跨域
+		function qsubmit() {
+			// alert(window.location.pathname);
+			// return false;
+
+			let qcode = $("#qcode").val();
+			let name = $("#qname").val();
+			let content = $("#qmessage").val();
+			let email = $("#qemail").val();
+			let telephone = $("#qTel").val();
+			let qcountry = $("#qcountry").val();
+			let qCompanyName = $("#qCompanyName").val();
+			$("#comeUrl").val(window.location.pathname);
+			// console.log($("#comeUrl").val());
+			if (that.code.toUpperCase() == qcode.toUpperCase()) {
+				if ('' == username) {
+					window.alert("please input you username!");
+					return false;
+				}
+				if ('' == email) {
+					window.alert("please input you email!");
+					return false;
+				}
+				if ('' == telephone) {
+					window.alert("please input telphone!");
+					return false;
+				}
+				if ('' == qcountry) {
+					window.alert("please input contry!");
+					return false;
+				}
+				if ('' == qCompanyName) {
+					window.alert("please input companyname!");
+					return false;
+				}
+				
+				return true;
+			} else {
+				window.alert("Verification code error!");
+				return false;
+			}
+		}
+		function submit() {
+			let inputCode = $("#inputCode").val();
+			let username = $("#username").val();
+			let content = $("#content").val();
+			let email = $("#email").val();
+			let telephone = $("#telephone").val();
+			if (that.code.toUpperCase() == inputCode.toUpperCase()) {
+				if ('' == username) {
+					window.alert("please input you username!");
+					return false;
+				}
+				if ('' == email) {
+					window.alert("please input you email!");
+					return false;
+				}
+				if ('' == telephone) {
+					window.alert("please input telphone!");
+					return false;
+				}
+				if ('' == content) {
+					window.alert("please input content!");
+
+					return false;
+				}
+				
+				if ('' == content) {
+					window.alert("please input content!");
+
+					return false;
+				}
+				
+				$("#posttt").submit();
+				return true;
+			} else {
+				window.alert("Verification code error!");
+				return false;
+			}
+		}
+	</script>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1,minimum-scale=1.0,maximum-scale=1.0 ,user-scalable=no">
+	<title>Contact us</title>
+	<link rel="stylesheet" type="text/css" href="Public/unionsum/css/base.css">
+	<link rel="stylesheet" type="text/css" href="Public/unionsum/css/css.css">
+</head>
+
+<body>
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5B59D59" height="0" width="0"
+			style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+	<!-- 头部开始 -->
+	<div class="head">
+		<div class="top box">
+			<div class="top-left">Welcome to SM Industry.</div>
+			<div class="top-right">
+
+				<div class="top-seek pr">
+					<form action="/index.html" method="get">
+						<select name="str">
+                            <option value="page_25">Epoxy powder coating</option>
+                            <option value="distillation_46">Polyester</option>
+                            <option value="equipment_27">Equipment center</option>
+                        </select>
+
+						<input class="inp" type="text" name="keyword" value="" placeholder="">
+						<button type="submit"><img src="Public/unionsum/images/sousuo.png"></button>
+					</form>
+				</div>
+
+				<div class="top-link">
+					<a href="index.php@m=page&amp;a=index&amp;id=32.html"><img
+							src="Public/unionsum/images/facebook.png" /></a> <a
+						href="index.php@m=page&amp;a=index&amp;id=32.html"><img
+							src="Public/unionsum/images/twitter.png" /></a> <a
+						href="index.php@m=page&amp;a=index&amp;id=32.html"><img
+							src="Public/unionsum/images/instagram.png" /></a> <a
+						href="index.php@m=page&amp;a=index&amp;id=32.html"><img
+							src="Public/unionsum/images/guge.png" /></a> <a
+						href="index.php@m=page&amp;a=index&amp;id=32.html"></a><a
+						href="http://www.cssmindustry.com/www.baidu.com" target="_blank"></a><a
+						href="https://www.youtube.com/channel/UCoAPKGnbCJQN4-nPmyHA71g?view_as=subscriber"
+						target="_blank"><img src="Public/unionsum/images/youtube.png" /></a> <a
+						href="index.php@m=page&amp;a=index&amp;id=32.html"><img
+							src="Public/unionsum/images/linkedin.png" /></a> <img
+						src="Public/unionsum/images/skype.png" />
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<div class="logo">
+		<span class="ico">&#xe790;</span>
+		<a href="index.html"><img src="Public/unionsum/images/logo.jpg" alt="联晟logo"></a>
+	</div>
+
+	<!-- 导航开始 -->
+<div class="navbox">
+    <div class="box qc nav">
+        <ul class="qc" id="indexnav">
+            <li><a href="index.html" title="Home">Home</a></li>
+            
+            <li><a href="index.php@m=distillation&amp;a=index&amp;id=46.html" title="EPC Service">EPC Service</a></li>
+            
+            <li><a href="index.php@m=equipment&amp;a=index&amp;id=27.html" title="Equipment Center">Equipment center</a></li>
+            <li><a href="index.php@m=page&amp;a=index&amp;id=25.html" title="Powder Coating">Powder Coating</a></li>
+            <!--<li><a href="/index.php?m=equipment&a=index&id=36" title="Lead">Lead</a></li>-->
+            <!--<li><a href="/index.php?m=equipment&a=index&id=45" title="Lithium">Lithium</a></li>-->
+            <!--<li><a href="/index.php?m=equipment&a=index&id=35" title="Copper">Copper</a></li>-->
+            <!--<li><a href="/index.php?m=equipment&a=index&id=37" title="Zinc">Zinc</a></li>-->
+            <!--<li><a href="/index.php?m=case&a=index&id=28" title="Cases">Cases</a></li>-->
+            <!--<li><a href="/index.php?m=page&a=index&id=25" title="About us">About us</a></li>-->
+            <li><a href="index.php@m=page&amp;a=index&amp;id=32.html" title="About Us">About Us</a></li>
+        </ul>
+    </div>
+</div>
+<!-- 移动端导航 -->
+<div class="wapnavbox">
+    <div class="box qc nav">
+        <ul class="qc">
+            <li><a href="index.html" title="Home">Home</a></li>
+            <li><a href="index.php@m=distillation&amp;a=index&amp;id=46.html" title="EPC Service">EPC Service</a></li>
+            <li><a href="index.php@m=equipment&amp;a=index&amp;id=27.html" title="Equipment Center">Equipment center</a></li>
+            <li><a href="index.php@m=page&amp;a=index&amp;id=25.html" title="Powder Coating">Powder Coating</a></li>
+            <li><a href="index.php@m=page&amp;a=index&amp;id=32.html" title="About Us">About Us</a></li>
+    </div>
+</div>
+
+	<!-- 头部结束 -->
+
+	<div class="right_w">
+		<!-- 头部banner -->
+		<div class="aboutus_banner top_banner">
+			<img src="Public/unionsum/img/contact.jpg">
+		</div>
+		<!-- 头部banner -->
+
+
+		<!-- 面包屑 -->
+		<div class="box mbx">
+			<a href="index.php@m=page&amp;a=index&amp;id=32.html">home</a>><a
+				href="index.php@m=page&amp;a=index&amp;id=32.html">About us</a>
+		</div>
+		<!-- 面包屑 -->
+
+		<!-- 联系地址 -->
+		<div class="contact">
+			<div class="box qc">
+				<br>
+				<!-- 缩进2个字符style="text-indent: 2em;" -->
+				<div style="display: flex;margin-bottom: 1%;flex-direction: row;flex-wrap: wrap;">
+					<div style="display: flex;flex-direction: column;width: 50%;height: 50%;">
+						<p >SM International Industrial Co., Ltd (SM Industry)located in Changsha, Hunan, China, Below are our two main parts business scope, and we have three production bases.</p>
+						<!-- 换行 -->
+						<!-- <br> -->
+						<p style="display: flex;margin-top:8%;">
+							<b><u><span style="font-size:16px;">Part one:</span></u></b><span
+								style="font-size:16px;"></span>
+						</p>
+						<p class="MsoNormal" >
+							<span style="font-family:Arial;font-size:14px;text-indent: 2em;">Located in the hometown of nonferrous metals in China, We mainly work to integrate the working process for flexible solution tailored for small and medium project capacity for Copper and Lead.</span>
+						</p>
+					</div>
+					<div style="display: flex;flex-wrap:wrap;margin-left:1%;">	
+						<img style="width: auto;height: auto;object-fit: cover;" src="./Public/unionsum/img/25c43edb37810fa5d189d376bbbf1c3.png">
+					</div>
+				</div>
+				<!-- <br> -->
+				<p class="MsoNormal">
+					<span style="font-family:Arial;font-size:14px;text-indent: 2em;">SM Industrial works with our client for the whole metal lifecycle from raw ore extraction to metal recycling! We focus on copper/lead smelting project and its byproduct recovery. We are specialized in byproduct recovery such as copper and lead anode slime recovery, lead fire-refining dross recovery, and secondary metal recycling such as waste lead acid battery/copper scrap recycling/WEEE recycling. SM industrial supplies major equipment such as blast furnace, rotating furnace, anode furnace, tilting reveberatory furnace, anode casting machine, copper/lead electrolysis equipment, copper/anode preparation machine, copper cathode stripping machine, etc.</span>
+				</p>
+				<br>
+
+				<p class="MsoNormal">
+					<span style="font-family:Arial;font-size:14px;text-indent: 2em;">
+						Since its foundation, our high quality equipment and strong technical strength have made the company gain a good reputation in the metallurgical industry, Gathering the expert strength of the China top scientific research and industrial practice, our goal is to provide optimal & customized solutions for copper, lead smelters all over the world, and help them: save costs and increase profits.
+					</span>
+				</p>
+				<br />
+				<p>
+					<b><u><span style="font-size:16px;">Part two:</span></u></b><span
+						style="font-size:16px;"></span>
+				</p>
+				<br>
+				<p class="MsoNormal">
+					<span style="font-family:Arial;font-size:14px;text-indent: 2em;">Production center in Dongguan, Guangdong,China, SM industrial is an outstanding powder coating manufacturer in the world. We have an independent product R&D center, advanced testing instruments, modern production equipment and a senior R&D team of more than 20 years.</span>
+				</p>
+				<br>
+				<p class="MsoNormal">
+					<span style="font-family:Arial;font-size:14px;text-indent: 2em;">We have 12 production workshop, and 6 sample production line, monthly production capacity can be 300 tons. Products are widely used: all kinds of hardware appliances, all kinds of building profiles, medical equipment, energy-saving vehicles and other related industries are sold globally.</span>
+
+				</p>
+				<br>
+				<p class="MsoNormal">
+					<span style="font-family:Arial;font-size:14px;text-indent: 2em;">With high quality products and fast service,we will adapt to the needs of all fields and become your satisfactory choice. SM industrial in line with the "create, win-win, sharing" development concept, and you go hand in hand, common development.</span>
+				</p>
+				<br />
+				<p>
+					<b><u><span style="font-size:16px;">Our Product</span></u></b><span style="font-size:16px;"></span>
+				</p>
+				<br />
+				<ol>
+					<li>
+						<p class="MsoNormal">
+							<span style="font-family:Arial;font-size:14px;text-indent: 2em;">
+								Copper metallurgy, Lead metallurgy, recovering metal from waste materials, cathode plate, anode
+						plate, chemical reagent
+								</span>
+						</p>
+
+					</li>
+					<br>
+					<li>
+						<p class="MsoNormal">
+							<span style="font-family:Arial;font-size:14px;text-indent: 2em;">
+								Epoxy powder coating, acrylate powder coating, polyester powder coating, bonding metallic powder
+								coating.
+							</span>
+						</p>
+						</li>
+				</ol>
+				<br />
+				<p>
+					<b><u><span style="font-size:16px;">Contact Us</span></u></b><span style="font-size:16px;"></span>
+				</p>
+				<br />
+				<p class="MsoListParagraph" style="margin-left:18.0pt;text-indent:0cm;">
+					<b><span>CHINA HEADQUARTER</span></b> 
+				</p>
+				<br />
+				<p class="MsoListParagraph" style="margin-left:18.0pt;text-indent:0cm;">
+					<span>Add: 25F, B-4, Guanming Business Center, No. 798 Zhongyi Rd, Yuhua, Changsha, Hunan, China</span>
+				</p>
+				<p class="MsoListParagraph" style="margin-left:18.0pt;text-indent:0cm;">
+					<span>Tel: 86 0731 65152558</span>
+				</p>
+				<p class="MsoListParagraph" style="margin-left:18.0pt;text-indent:0cm;">
+					<span>Mobile: 86 173 0849 3887</span>
+				</p>
+				<p class="MsoListParagraph" style="margin-left:18.0pt;text-indent:0cm;">
+					<span>Whatsapp/Wechat: 173 0849 3887</span>
+				</p>
+				<p class="MsoListParagraph" style="margin-left:18.0pt;text-indent:0cm;">
+					<span>Email: smjaneyu@gmail.com </span>
+				</p>
+				<br />
+				<p class="MsoListParagraph" style="margin-left:18.0pt;text-indent:0cm;">
+					<b><span>PRODUCTION CENTER</span></b> 
+				</p>
+				<br />
+				<p class="MsoListParagraph" style="margin-left:18.0pt;text-indent:0cm;">
+					<span>Add: No.3 Puxinhu Center 4 Rd, Tangxia, Dongguan, Guangdong, China</span>
+				</p>
+				<p class="MsoListParagraph" style="margin-left:18.0pt;text-indent:0cm;">
+					<span>Tel: 86 0769 86959488</span>
+				</p>
+				<p class="MsoListParagraph" style="margin-left:18.0pt;text-indent:0cm;">
+					<span>Fax: 86 0769 86959398</span>
+				</p>
+				<p class="MsoListParagraph" style="margin-left:18.0pt;text-indent:0cm;">
+					<span>Mobile: 173 0849 3887 (Whatsapp/Wechat)</span>
+				</p>
+				<p class="MsoListParagraph" style="margin-left:18.0pt;text-indent:0cm;">
+					<span>Email: smjaneyu@gmail.com </span>
+				</p>
+			</div>
+
+			<!-- 谷歌地图 -->
+			<div class="gugemap mt40">
+				<iframe
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d450180.5085264298!2d112.7444058389941!3d28.175844238793893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x342735f39e1c64c5%3A0xb1e5bb9ca1f1a680!2sChangsha%2C%20Hunan%2C%20China!5e0!3m2!1sen!2s!4v1573458597768!5m2!1sen!2s"
+					width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+			</div>
+			<!-- 谷歌地图 -->
+		</div>
+		<!-- 联系地址 -->
+
+		<!-- 尾部 -->
+		<div class="foot">
+			<div class="box">
+				<!-- 尾部联系方式开始 -->
+				<div class="foot_left">
+					<dl>
+						<dt>
+							CHINA HEADQUARTERS
+						</dt>
+						<dd>
+							<div class="dddiv">
+								<p>
+									<b>Add:</b>25F, B-4, Guanming Business Center, No. 798 Zhongyi Rd, Yuhua, Changsha,
+									Hunan, China
+								</p>
+								<p>
+									<b>Tel:</b>86 0731 65152558
+								</p>
+								<p>
+									<b>Mobile:</b>86 173 0849 3887
+								</p>
+							</div>
+							<p class="mt20">
+								<b>Whats/Wechat：</b>173 0849 3887
+							</p>
+							<p>
+								<b>Email：</b><a href="mailto:smjaneyu@gmail.com"
+									target="_blank">smjaneyu@gmail.com</a><a href="mailto:smjaneyu@gmail.com"
+									target="_blank"><br />
+								</a>
+							</p>
+							<div>
+								<a href="mailto:smjaneyu@gmail.com" target="_blank"><br />
+								</a>
+							</div>
+							<p>
+								<br />
+							</p>
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+							PRODUCTION CENTER
+						</dt>
+						<dd>
+							<div class="dddiv">
+								<p>
+									<b>Add：</b>No.3 Puxinhu Center 4 Rd, Tangxia, Dongguan, Guangdong, China
+								</p>
+								<p>
+									<b>Tel：</b>86 0769 86959488
+								</p>
+								<p>
+									<b>Fax：</b>86 0769 86959398
+								</p>
+								<p>
+									<b>Mobile：</b>173 0849 3887 (Whatsapp/Wechat)
+								</p>
+								<p>
+									<b>Email：</b>smjaneyu@gmail.com
+								</p>
+							</div>
+						</dd>
+					</dl>
+				</div>
+				<!-- 尾部联系方式结束 -->
+
+				<!-- 尾部表单留言 -->
+				<div class="foot_right">
+					<dl>
+						<dt>CONTACT US</dt>
+						<dd>
+							<form name="myform" id="posttt" action="/net/sendMail" method="post">
+								<font id="foot_font">
+									<input type="hidden" name="title" value="" />
+									<input type="hidden" name="lang" value="2" />
+									<input type="text" id="username" name="name" class="foot_input Name"
+										placeholder="* Name" maxlength="30" required
+										oninvalid="setCustomValidity('Please fill in your name!');"
+										oninput="setCustomValidity('');"></input>
+									<input id="email" type="email" name="email" class="foot_input Email"
+										placeholder="* Email" maxlength="40" required
+										oninvalid="setCustomValidity('Please fill in your email!');"
+										oninput="setCustomValidity('');"></input>
+									<input type="text" id="telephone" name="phone" class="foot_input Phone"
+										placeholder="Phone" maxlength="20" required></input>
+									<textarea id="content" name="message" class="foot_textarea Message"
+										placeholder="Message" maxlength="300" required></textarea>
+									<input id="inputCode" type="text" name="code" class="foot_input"
+										placeholder="* code" maxlength="4" required
+										oninvalid="setCustomValidity('Please enter the verification code!');"
+										oninput="setCustomValidity('');" style="width:160px" ></input>
+									<img id="ggetcode" src="https://www.ym94.cn/net/getCode?code=8235"
+										onclick="flushCode()" title="Click to refresh the verification code!"
+										style="height: 33px;margin-bottom: -11px;" />
+								</font>
+							</form>
+							<div class="pr">
+								<button class="foot_submit" onclick="return submit()">SUBMIT</button>
+							</div>
+						</dd>
+					</dl>
+				</div>
+				<!-- 尾部表单留言结束 -->
+
+				<div class="Social">
+					<a href="index.php@m=page&amp;a=index&amp;id=32.html"><img
+							src="Public/unionsum/images/facebook.png" /></a> <a
+						href="index.php@m=page&amp;a=index&amp;id=32.html"><img
+							src="Public/unionsum/images/twitter.png" /></a> <a
+						href="index.php@m=page&amp;a=index&amp;id=32.html"><img
+							src="Public/unionsum/images/instagram.png" /></a> <a
+						href="index.php@m=page&amp;a=index&amp;id=32.html"><img
+							src="Public/unionsum/images/guge.png" /></a> <a
+						href="index.php@m=page&amp;a=index&amp;id=32.html"></a><a
+						href="http://www.cssmindustry.com/www.baidu.com" target="_blank"></a><a
+						href="https://www.youtube.com/channel/UCoAPKGnbCJQN4-nPmyHA71g?view_as=subscriber"
+						target="_blank"><img src="Public/unionsum/images/youtube.png" /></a> <a
+						href="index.php@m=page&amp;a=index&amp;id=32.html"><img
+							src="Public/unionsum/images/linkedin.png" /></a> <img
+						src="Public/unionsum/images/skype.png" />
+				</div>
+
+
+			</div>
+		</div>
+		<div class="copyright">
+			<a style='color: #fff;' href="http://beian.miit.gov.cn">Hunan SM International Industrial Co., Ltd</a>
+		</div>
+		<!-- 尾部 -->
+	</div>
+
+
+
+
+
+	<script type="text/javascript" src="Public/unionsum/js/jquery.min.js"></script>
+	<script type="text/javascript" src="Public/unionsum/js/common.js"></script>
+	<script type="text/javascript" src="Public/unionsum/js/swiper.js"></script>
+</body>
+
+</html>

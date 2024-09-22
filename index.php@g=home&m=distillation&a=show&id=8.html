@@ -1,0 +1,980 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!-- Google Tag Manager -->
+	<script>
+		(function (w, d, s, l, i) {
+			w[l] = w[l] || [];
+			w[l].push({
+				'gtm.start': new Date().getTime(),
+				event: 'gtm.js'
+			});
+			var f = d.getElementsByTagName(s)[0],
+				j = d.createElement(s),
+				dl = l != 'dataLayer' ? '&l=' + l : '';
+			j.async = true;
+			j.src =
+				'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+			f.parentNode.insertBefore(j, f);
+		})(window, document, 'script', 'dataLayer', 'GTM-5B59D59');
+	</script>
+	<!-- End Google Tag Manager -->
+	<script>
+		// 
+		function getcode() {
+			//将数字、小写字母及大写字母输入
+			var str = "1234567890qwertyuioplkjhgfdsazxcvbnmQWERTYUIOPLKJHGFDSAZXCVBNM";
+			var res = '';
+			for (var i = 0; i < 4; i++) {
+				res += str[Math.floor(Math.random() * 60 + 2)];
+			}
+			return res;
+		}
+		var that = this;
+		var code = "8235";
+		var qcode = "8235";
+		function flushCode() {
+			let code = this.getcode()
+			that.code = code;
+			// 刷新
+			$("#ggetcode").attr('src', 'https://www.ym94.cn/net/getCode?code=' + code);
+		}
+		function flushQCode() {
+			let code = this.getcode()
+			that.qcode = code;
+			// 刷新
+			$("#qgetcode").attr('src', 'https://www.ym94.cn/net/getCode?code=' + code);
+		}
+		//开启跨域
+		function qsubmit() {
+			// alert(window.location.pathname);
+			// return false;
+
+			let qcode = $("#qcode").val();
+			let name = $("#qname").val();
+			let content = $("#qmessage").val();
+			let email = $("#qemail").val();
+			let telephone = $("#qTel").val();
+			let qcountry = $("#qcountry").val();
+			let qCompanyName = $("#qCompanyName").val();
+			$("#comeUrl").val(window.location.pathname);
+			// console.log($("#comeUrl").val());
+			if (that.code.toUpperCase() == qcode.toUpperCase()) {
+				if ('' == username) {
+					window.alert("please input you username!");
+					return false;
+				}
+				if ('' == email) {
+					window.alert("please input you email!");
+					return false;
+				}
+				if ('' == telephone) {
+					window.alert("please input telphone!");
+					return false;
+				}
+				if ('' == qcountry) {
+					window.alert("please input contry!");
+					return false;
+				}
+				if ('' == qCompanyName) {
+					window.alert("please input companyname!");
+					return false;
+				}
+				
+				return true;
+			} else {
+				window.alert("Verification code error!");
+				return false;
+			}
+		}
+		function qsubmit() {
+			// alert(window.location.pathname);
+			// return false;
+
+			let qcode = $("#qcode").val();
+			let name = $("#qname").val();
+			let content = $("#qmessage").val();
+			let email = $("#qemail").val();
+			let telephone = $("#qTel").val();
+			let qcountry = $("#qcountry").val();
+			let qCompanyName = $("#qCompanyName").val();
+			$("#comeUrl").val(window.location.pathname);
+			// console.log($("#comeUrl").val());
+			if (that.code.toUpperCase() == qcode.toUpperCase()) {
+				if ('' == username) {
+					window.alert("please input you username!");
+					return false;
+				}
+				if ('' == email) {
+					window.alert("please input you email!");
+					return false;
+				}
+				if ('' == telephone) {
+					window.alert("please input telphone!");
+					return false;
+				}
+				if ('' == qcountry) {
+					window.alert("please input contry!");
+					return false;
+				}
+				if ('' == qCompanyName) {
+					window.alert("please input companyname!");
+					return false;
+				}
+				
+				return true;
+			} else {
+				window.alert("Verification code error!");
+				return false;
+			}
+		}
+
+		function submit() {
+			let inputCode = $("#inputCode").val();
+			let username = $("#username").val();
+			let content = $("#content").val();
+			let email = $("#email").val();
+			let telephone = $("#telephone").val();
+			if (that.code.toUpperCase() == inputCode.toUpperCase()) {
+				if ('' == username) {
+					window.alert("please input you username!");
+					return false;
+				}
+				if ('' == email) {
+					window.alert("please input you email!");
+					return false;
+				}
+				if ('' == telephone) {
+					window.alert("please input telphone!");
+					return false;
+				}
+				if ('' == content) {
+					window.alert("please input content!");
+
+					return false;
+				}
+				return true;
+			} else {
+				window.alert("Verification code error!");
+				return false;
+			}
+		}
+	</script>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1,minimum-scale=1.0,maximum-scale=1.0 ,user-scalable=no">
+	<title>Crude Pb-Sn-Sb alloy metal distillation-Application</title>
+	<link rel="stylesheet" type="text/css" href="Public/unionsum/css/base.css">
+	<link rel="stylesheet" type="text/css" href="Public/unionsum/css/css.css">
+</head>
+
+<body>
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5B59D59" height="0" width="0"
+			style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+	<!-- 头部开始 -->
+	<div class="head">
+		<div class="top box">
+			<div class="top-left">Welcome to SM Industry.</div>
+			<div class="top-right">
+
+				<div class="top-seek pr">
+					<form action="/index.html" method="get">
+						<select name="str">
+							<option value="page_25">EPC Service</option>
+							<option value="distillation_46">Equipment center</option>
+							<option value="equipment_27">Powder Coating</option>
+						</select>
+
+						<input class="inp" type="text" name="keyword" value="" placeholder="">
+						<button type="submit"><img src="Public/unionsum/images/sousuo.png"></button>
+					</form>
+				</div>
+
+				<div class="top-link">
+					<a href="index.php@g=home&amp;m=distillation&amp;a=show&amp;id=8.html"><img
+							src="Public/unionsum/images/facebook.png" /></a> <a
+						href="index.php@g=home&amp;m=distillation&amp;a=show&amp;id=8.html"><img
+							src="Public/unionsum/images/twitter.png" /></a> <a
+						href="index.php@g=home&amp;m=distillation&amp;a=show&amp;id=8.html"><img
+							src="Public/unionsum/images/instagram.png" /></a> <a
+						href="index.php@g=home&amp;m=distillation&amp;a=show&amp;id=8.html"><img
+							src="Public/unionsum/images/guge.png" /></a> <a
+						href="index.php@g=home&amp;m=distillation&amp;a=show&amp;id=8.html"></a><a
+						href="http://www.cssmindustry.com/www.baidu.com" target="_blank"></a><a
+						href="https://www.youtube.com/channel/UCoAPKGnbCJQN4-nPmyHA71g?view_as=subscriber"
+						target="_blank"><img src="Public/unionsum/images/youtube.png" /></a> <a
+						href="index.php@g=home&amp;m=distillation&amp;a=show&amp;id=8.html"><img
+							src="Public/unionsum/images/linkedin.png" /></a> <img
+						src="Public/unionsum/images/skype.png" />
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<div class="logo">
+		<span class="ico">&#xe790;</span>
+		<a href="index.html"><img src="Public/unionsum/images/logo.jpg" alt="联晟logo"></a>
+	</div>
+
+	<!-- 导航开始 -->
+	<div class="navbox">
+		<div class="box qc nav">
+			<ul class="qc" id="indexnav">
+				<li><a href="index.html" title="Home">Home</a></li>
+
+				<li><a href="index.php@m=distillation&amp;a=index&amp;id=46.html" title="EPC Service">EPC Service</a>
+				</li>
+				<li><a href="index.php@m=equipment&amp;a=index&amp;id=27.html" title="Equipment Center">Equipment
+						center</a></li>
+				<li><a href="index.php@m=page&amp;a=index&amp;id=25.html" title="Powder Coating">Powder Coating</a></li>
+				<li><a href="index.php@m=page&amp;a=index&amp;id=32.html" title="About Us">About Us</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- 移动端导航 -->
+	<div class="wapnavbox">
+		<div class="box qc nav">
+			<ul class="qc">
+				<li><a href="index.html" title="Home">Home</a></li>
+				<li><a href="index.php@m=distillation&amp;a=index&amp;id=46.html" title="EPC Service">EPC Service</a>
+				</li>
+				<li><a href="index.php@m=equipment&amp;a=index&amp;id=27.html" title="Equipment Center">Equipment
+						center</a></li>
+				<li><a href="index.php@m=page&amp;a=index&amp;id=25.html" title="Powder Coating">Powder Coating</a></li>
+				<li><a href="index.php@m=page&amp;a=index&amp;id=32.html" title="About Us">About Us</a></li>
+		</div>
+	</div>
+	<!-- 导航结束 -->
+	<!-- 头部结束 -->
+
+	<div class="right_w">
+		<!-- 头部banner -->
+		<div class="aboutus_banner top_banner">
+			<img src="Public/unionsum/img/appbanner.jpg">
+		</div>
+		<!-- 头部banner -->
+
+
+		<!-- 面包屑 -->
+		<div class="box mbx">
+			<a href="index.php@g=home&amp;m=distillation&amp;a=show&amp;id=8.html">home</a>><a
+				href="index.php@g=home&amp;m=distillation&amp;a=index&amp;id=46.html">Application</a></div>
+		<!-- 面包屑 -->
+
+
+		<div class="Vacuumdistillation">
+			<div class="box qc mt30">
+				<div class="vd_left fl">
+					<h3>Crude Pb-Sn-Sb alloy metal distillation</h3>
+					<h4 class="mt30">Source of raw materials:</h4>
+					<p class="MsoNormal">
+						<span style="font-size:14px;"> </span>
+					</p>
+					<p class="MsoNormal">
+						<strong><em><span style="font-family:Arial;font-size:16px;"><img
+										src="Uploads/202012/5fe2ea2c840b8.png" alt="" /><br />
+								</span></em></strong>
+					</p>
+					<p class="MsoNormal">
+						<strong><em><span style="font-family:Arial;font-size:16px;">Crude Pb-Sn-Sb alloy metal
+									distillation&nbsp;</span></em></strong>
+					</p>
+					<p class="MsoNormal">
+						<strong><em><span style="font-family:Arial;font-size:16px;">The most advanced technology to
+									recovery tin from lead,</span></em></strong>
+					</p>
+					<p class="MsoNormal">
+						<strong><em><span style="font-family:Arial;font-size:16px;">High purity tin LME standard Tin and
+									Lead</span></em></strong><strong><em><span
+									style="font-family:Arial;font-size:16px;">&nbsp;</span></em></strong><strong><em><span
+									style="font-family:Arial;font-size:16px;">&nbsp;can get through one simple furnace
+								</span></em></strong><strong><em><span style="font-family:Arial;font-size:16px;">by
+								</span></em></strong><strong><em><span style="font-family:Arial;font-size:16px;">Vacuum
+									metallurgy </span></em></strong><strong><em><span
+									style="font-family:Arial;font-size:16px;">Technology:</span></em></strong>
+					</p>
+					<p class="MsoNormal">
+						<strong><em><br />
+							</em></strong>
+					</p>
+					<p class="MsoNormal">
+						<strong><span style="color:#003399;font-family:Arial;font-size:16px;">Advantages
+								of&nbsp;</span><strong><span
+									style="color:#003399;font-family:Arial;font-size:16px;">&nbsp;</span></strong><strong><span
+									style="color:#003399;font-family:Arial;font-size:16px;">Vacuum
+									metallurgy&nbsp;</span></strong><strong><span
+									style="color:#003399;font-family:Arial;font-size:16px;">Technology on tin recycling
+									field:</span></strong><span
+								style="color:#003399;font-family:Arial;font-size:16px;"></span></strong>
+					</p>
+					<p class="MsoNormal">
+						<span style="font-family:Arial;font-size:16px;">1.No Emission No</span><span
+							style="font-family:Arial;font-size:16px;"> Pollution,to meet local government environment
+							friendly policy and protect human health&nbsp;</span>
+					</p>
+					<p class="MsoNormal">
+						<span style="font-family:Arial;font-size:16px;">2.Low Investment with one furnace system</span>
+					</p>
+					<p class="MsoNormal">
+						<span style="font-family:Arial;font-size:16px;"><span
+								style="font-family:Arial;font-size:16px;">3.</span><span
+								style="font-family:Arial;font-size:16px;">High metal recovery rate to save the value and
+								no waste</span></span>
+					</p>
+					<p class="MsoNormal">
+						<span style="font-family:Arial;font-size:16px;">4.Short process to get your fund back
+							fast</span>
+					</p>
+					<p class="MsoNormal">
+						<span style="font-family:Arial;font-size:16px;"><span
+								style="font-family:Arial;font-size:16px;">5.More than 100 tin vacuum</span><span
+								style="font-family:Arial;font-size:16px;"> distillation furnace under operation and
+								creating values for owners all over the world</span></span>
+					</p>
+					<p class="MsoNormal">
+						<span style="font-family:Arial;font-size:16px;">6.High automated system with low labor
+							requirement</span>
+					</p>
+					<p class="MsoNormal">
+						<span style="font-family:Arial;font-size:16px;">Turn all kinds of dross and slags into valuable
+							metals can sell in market by one single furnace</span>
+					</p>
+					<span style="font-family:Arial;font-size:16px;">Mature stable industrial production,have more than
+						100 furnaces running in different countries from Asia to America and Europe</span><span
+						style="font-family:Arial;font-size:16px;">.</span><br />
+					<p>
+						<br />
+					</p>
+					<p class="MsoNormal">
+						<span style="font-size:14px;"><br />
+						</span>
+					</p>
+					<p class="MsoNormal">
+						<span><span style="font-size:16px;"><span style="font-family:Arial;font-size:16px;">This process
+									is applied for crude tin alloy
+									with Cu, Fe, and Ni contents less than a certain proportion. The main sources for
+									the raw </span><span style="font-family:Arial;font-size:16px;">materials</span><span
+									style="font-family:Arial;font-size:16px;">&nbsp;are:</span></span></span>
+					</p>
+					<ol>
+						<li>
+							<span style="font-size:16px;font-family:Arial;">Crude soldering tin;</span>
+						</li>
+						<li>
+							<span style="font-size:16px;font-family:Arial;">Crude tin alloy of raw ore from traditional
+								large-scale tin smelting plants;</span>
+						</li>
+						<li>
+							<span style="font-size:16px;font-family:Arial;">Tin and bismuth alloy;</span>
+						</li>
+						<li>
+							<span style="font-size:16px;font-family:Arial;">Tin base alloy with low impurities and low
+								melting point.</span>
+						</li>
+					</ol>
+					<p>
+						<span style="font-family:Arial;font-size:16px;">Our furnace have a wide application to all kinds
+							of metals recovery and separation,please call or email us to discuss with our metallurgy and
+							distillation experts to find if your materials can be treated by our furnace.</span><span
+							style="font-family:Arial;font-size:16px;">&nbsp;</span><span
+							style="font-family:Arial;font-size:16px;">&nbsp;</span>
+					</p>
+					<p>
+						<br />
+					</p>
+					<h4 class="mt30">Technological characteristics and finished product indexes:</h4>
+					<p>
+						<br />
+					</p>
+					<p>
+						<br />
+						<table border="0" cellspacing="0" cellpadding="0" width="100%"
+							style="width:100.0%;border-collapse:collapse;">
+							<tbody>
+								<tr>
+									<td width="33%">
+										<p class="MsoNormal" align="right" style="margin-left:0cm;text-align:right;">
+											<span><span style="font-family:Arial;font-size:14px;">Product 1:</span><span
+													style="font-family:Arial;font-size:14px;">&nbsp;&nbsp;&nbsp;
+												</span></span><span style="font-size:9.0pt;"></span>
+										</p>
+									</td>
+									<td width="66%">
+										<p class="MsoNormal" align="left" style="margin-left:0cm;text-align:left;">
+											<span><span
+													style="font-family:Arial;font-size:14px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+												</span><span style="font-family:Arial;font-size:14px;">Crude tin
+													alloy</span></span><span style="font-size:9.0pt;"></span>
+										</p>
+										<p class="MsoNormal" align="left" style="margin-left:0cm;text-align:left;">
+											<span><span
+													style="font-family:Arial;font-size:14px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+												</span><span style="font-family:Arial;font-size:14px;">(Pb&lt;0.01%,
+													Bi&lt;0.01%,
+													Sb&lt;0.015%)</span></span><span style="font-size:9.0pt;"></span>
+										</p>
+									</td>
+								</tr>
+								<tr>
+									<td width="33%">
+										<p class="MsoNormal" align="right" style="margin-left:0cm;text-align:right;">
+											<span><span style="font-family:Arial;font-size:14px;">Product 2:</span><span
+													style="font-family:Arial;font-size:14px;">&nbsp;&nbsp;&nbsp;
+												</span></span>
+										</p>
+									</td>
+									<td width="66%">
+										<p class="MsoNormal" align="left" style="margin-left:0cm;text-align:left;">
+											<span><span
+													style="font-family:Arial;font-size:14px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+												</span><span style="font-family:Arial;font-size:14px;">Crude Pb and
+													bismuth alloy</span></span><span style="font-size:9.0pt;"></span>
+										</p>
+										<p class="MsoNormal" align="left" style="margin-left:0cm;text-align:left;">
+											<span><span
+													style="font-family:Arial;font-size:14px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+												</span><span
+													style="font-family:Arial;font-size:14px;">(Sn&lt;0.2%)</span></span><span
+												style="font-size:9.0pt;"></span>
+										</p>
+									</td>
+								</tr>
+								<tr>
+									<td width="33%">
+										<p class="MsoNormal" align="right" style="margin-left:0cm;text-align:right;">
+											<span><span style="font-family:Arial;font-size:14px;">Equipment
+													capacity:</span><span
+													style="font-family:Arial;font-size:14px;">&nbsp;&nbsp;
+												</span></span>
+										</p>
+									</td>
+									<td width="66%">
+										<p class="MsoNormal" align="left" style="margin-left:5.0pt;text-align:left;">
+											<span><span
+													style="font-family:Arial;font-size:14px;">&nbsp;&nbsp;&nbsp;&nbsp;
+												</span><span style="font-family:Arial;font-size:14px;">8-45 tons/24
+													hrs.&nbsp;(Soldering tin)</span></span><span
+												style="font-size:9.0pt;"></span>
+										</p>
+										<p class="MsoNormal" align="left" style="margin-left:5.0pt;text-align:left;">
+											<span><span
+													style="font-family:Arial;font-size:14px;">&nbsp;&nbsp;&nbsp;&nbsp;
+												</span><span style="font-family:Arial;font-size:14px;">8-25 tons/24 hrs.
+													(Crude Sn-Sb alloy)</span></span><span
+												style="font-size:9.0pt;"></span>
+										</p>
+									</td>
+								</tr>
+								<tr>
+									<td width="33%">
+										<p class="MsoNormal" align="right" style="margin-left:0cm;text-align:right;">
+											<span><span style="font-family:Arial;font-size:14px;">Power
+													consumption:</span><span
+													style="font-family:Arial;font-size:14px;">&nbsp;&nbsp;
+												</span></span>
+										</p>
+									</td>
+									<td width="66%">
+										<p class="MsoNormal" align="left" style="margin-left:5.0pt;text-align:left;">
+											<span><span
+													style="font-family:Arial;font-size:14px;">&nbsp;&nbsp;&nbsp;&nbsp;
+												</span><span style="font-family:Arial;font-size:14px;">300—650 kw·h per
+													ton of material</span></span><span style="font-size:9.0pt;"></span>
+										</p>
+									</td>
+								</tr>
+								<tr>
+									<td width="33%">
+										<p class="MsoNormal" align="right" style="margin-left:0cm;text-align:right;">
+											<span><span style="font-family:Arial;font-size:14px;">Labor
+													consumption:</span><span
+													style="font-family:Arial;font-size:14px;">&nbsp;&nbsp;&nbsp;
+												</span></span>
+										</p>
+									</td>
+									<td width="66%">
+										<p class="MsoNormal" align="left" style="text-align:left;">
+											<span><span
+													style="font-family:Arial;font-size:14px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+												</span><span style="font-family:Arial;font-size:14px;">1-2 people per
+													shift</span></span><span style="font-size:9.0pt;"></span>
+										</p>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</p>
+					<p>
+						<br />
+					</p>
+					<!-- 联系 -->
+					<div class="equipmentxq_left2 mt50">
+						<div class="equipmentxq_left2_nav" id="tabnav2">
+							<a class="this">Contact us</a>
+							<a class="">Cases</a>
+							<em></em>
+						</div>
+
+						<div class="equipmentxq_left2_text" id="tabbox2">
+
+							<!-- 留言表单 -->
+							<div class="equipmentxq_left2_font">
+								<h3>Any questions for technology or equipment,please contact us</h3>
+								<form name="myform" id="myform" action="/net/questionEmail" onsubmit="return qsubmit()" method="post">
+									<font id="foot_font2">
+										<div class="font_l fl">
+											<input type="hidden" name="title"
+												value="Crude Pb-Sn-Sb alloy metal distillation" />
+
+											<input id="qname" type="text" name="name" class="Name" placeholder="* Name"
+												maxlength="30" required
+												oninvalid="setCustomValidity('Please fill in your name!');"
+												oninput="setCustomValidity('');"></input>
+											<input id="qcountry" type="text" name="country" class="Country" placeholder="* Country"
+												maxlength="40" required
+												oninvalid="setCustomValidity('Please fill in your country!');"
+												oninput="setCustomValidity('');"></input>
+											<input id="qemail" type="email" name="email" class="Email" placeholder="* Email"
+												maxlength="40" required
+												oninvalid="setCustomValidity('Please fill in your email!');"
+												oninput="setCustomValidity('');"></input>
+											<input id="qTel"  name="tel" class="Tel" type="text" placeholder="Tel"
+												maxlength="20"></input>
+											<input id="qCompanyName"  name="CompanyName" class="CompanyName" type="text"
+												placeholder="Company Name" maxlength="100"></input>
+											<input id="comeUrl" name="comeUrl" type="hidden"></input>
+										</div>
+										<div class="font_r fr">
+											<textarea id="qmessage" name="message" class="Message" placeholder="Message"
+												maxlength="300"></textarea>
+											<input id="qcode" type="text" name="code" placeholder="* code" maxlength="4" required
+												oninvalid="setCustomValidity('Please enter the verification code!');"
+												oninput="setCustomValidity('');" style="width:160px"></input>
+											<img id="qgetcode" src="https://www.ym94.cn/net/getCode?code=8235"
+												onclick="flushQCode()" title="Click to refresh the verification code!"
+												style="height: 33px;margin-bottom: -11px;" />
+											<button>Submit</button>
+										</div>
+									</font>
+								</form>
+							</div>
+							<!-- 留言表单 -->
+
+
+
+							<!-- 案例轮播 -->
+							<div class="xqCases pr">
+								<b class="ico xqCasesl"></b>
+								<b class="ico xqCasesr"></b>
+								<div class="swiper-container-anli swiper-container-horizontal">
+									<div class="swiper-wrapper"
+										style="transform: translate3d(-755px, 0px, 0px); transition-duration: 0ms;">
+
+										<div class="swiper-slide swiper-slide-active" data-swiper-slide-index="0"
+											style="width: 725px; margin-right: 30px;">
+											<div class="xqCases_left fl">
+												<h5><a href="index.php@g=home&amp;m=case&amp;a=show&amp;id=39.html">Project
+														in Hubei, China</a></h5>
+												<p style="font-size:16px;font-family:Arial;background-color:#FFFFFF;">
+													<span style="font-size:14px;">Model: DBLL10-50VG</span>
+												</p>
+												<p style="font-size:16px;font-family:Arial;background-color:#FFFFFF;">
+													<span style="font-size:14px;">Material:Crude Tin</span>
+												</p>
+												<p style="font-size:16px;font-family:Arial;background-color:#FFFFFF;">
+													<span style="font-size:14px;">Capacity: 15-20 t/d<br />
+													</span>
+												</p>
+												<p style="font-size:16px;font-family:Arial;background-color:#FFFFFF;">
+													<span style="font-size:14px;">Amount:&nbsp;</span>
+												</p>
+												<p style="font-size:16px;font-family:Arial;background-color:#FFFFFF;">
+													<span style="font-size:14px;">&nbsp;&nbsp;&nbsp;&nbsp;1 sets&nbsp;
+														&nbsp; May, 2019</span>
+												</p> <a class="xqq"
+													href="index.php@g=home&amp;m=case&amp;a=show&amp;id=39.html">Brief
+													Introduction</a>
+											</div>
+											<div class="xqCases_right fr">
+												<img src="Uploads/202007/5f23c95a0a635.jpg">
+											</div>
+										</div>
+										<div class="swiper-slide swiper-slide-active" data-swiper-slide-index="0"
+											style="width: 725px; margin-right: 30px;">
+											<div class="xqCases_left fl">
+												<h5><a href="index.php@g=home&amp;m=case&amp;a=show&amp;id=38.html">Project
+														in Guangxi, China</a></h5>
+												<p style="font-size:16px;font-family:Arial;background-color:#FFFFFF;">
+													<span style="font-size:14px;">Model: DBLL10-80VG</span><span
+														style="font-size:14px;"></span>
+												</p>
+												<p style="font-size:16px;font-family:Arial;background-color:#FFFFFF;">
+													<span style="font-size:14px;">Material:Crude Tin</span>
+												</p>
+												<p style="font-size:16px;font-family:Arial;background-color:#FFFFFF;">
+													<span style="font-size:14px;">Capacity: 30 t/d<br />
+													</span>
+												</p>
+												<p style="font-size:16px;font-family:Arial;background-color:#FFFFFF;">
+													<span style="font-size:14px;">Amount:&nbsp;</span>
+												</p>
+												<p style="font-size:16px;font-family:Arial;background-color:#FFFFFF;">
+													<span style="font-size:14px;">&nbsp;&nbsp;&nbsp;&nbsp;1 sets<span
+															style="font-size:16px;">&nbsp; &nbsp; Sep,2017</span></span>
+												</p> <a class="xqq"
+													href="index.php@g=home&amp;m=case&amp;a=show&amp;id=38.html">Brief
+													Introduction</a>
+											</div>
+											<div class="xqCases_right fr">
+												<img src="Uploads/202007/5f23c89f387b9.jpg">
+											</div>
+										</div>
+										<div class="swiper-slide swiper-slide-active" data-swiper-slide-index="0"
+											style="width: 725px; margin-right: 30px;">
+											<div class="xqCases_left fl">
+												<h5><a href="index.php@g=home&amp;m=case&amp;a=show&amp;id=37.html">Project
+														in Yunnan, China</a></h5>
+												<p style="font-size:16px;font-family:Arial;background-color:#FFFFFF;">
+													<span style="font-size:14px;">&nbsp;<span
+															style="font-size:16px;"></span></span><span
+														style="font-size:14px;">Model: DBLL10-50VG</span><span
+														style="font-size:14px;"></span>
+												</p>
+												<p style="font-size:16px;font-family:Arial;background-color:#FFFFFF;">
+													<span style="font-size:14px;">Material:Crude Tin</span>
+												</p>
+												<p style="font-size:16px;font-family:Arial;background-color:#FFFFFF;">
+													<span style="font-size:14px;">Capacity: 15-20 t/d<br />
+													</span>
+												</p>
+												<p style="font-size:16px;font-family:Arial;background-color:#FFFFFF;">
+													<span style="font-size:14px;">Amount:&nbsp;</span>
+												</p>
+												<p style="font-size:16px;font-family:Arial;background-color:#FFFFFF;">
+													<span style="font-size:14px;">&nbsp;&nbsp;&nbsp;&nbsp;1
+														sets<span>&nbsp; &nbsp; Feb,2010</span></span>
+												</p>
+												<p style="font-size:16px;font-family:Arial;background-color:#FFFFFF;">
+													<span style="font-size:14px;"><span>&nbsp;
+															&nbsp;&nbsp;</span></span>
+												</p>
+												<div>
+													<br />
+												</div> <a class="xqq"
+													href="index.php@g=home&amp;m=case&amp;a=show&amp;id=37.html">Brief
+													Introduction</a>
+											</div>
+											<div class="xqCases_right fr">
+												<img src="Uploads/202007/5f23c825cc4c9.jpg">
+											</div>
+										</div>
+										<div class="swiper-slide swiper-slide-active" data-swiper-slide-index="0"
+											style="width: 725px; margin-right: 30px;">
+											<div class="xqCases_left fl">
+												<h5><a href="index.php@g=home&amp;m=case&amp;a=show&amp;id=36.html">Project
+														in Jiangxi, China</a></h5>
+												<p style="font-size:16px;font-family:Arial;background-color:#FFFFFF;">
+													<span style="font-size:14px;">&nbsp;<span
+															style="font-size:16px;"></span></span><span
+														style="font-size:14px;">Model: DBLL10-50VG</span><span
+														style="font-size:14px;"></span>
+												</p>
+												<p style="font-size:16px;font-family:Arial;background-color:#FFFFFF;">
+													<span style="font-size:14px;">Material:Crude Tin</span>
+												</p>
+												<p style="font-size:16px;font-family:Arial;background-color:#FFFFFF;">
+													<span style="font-size:14px;">Capacity: 15-20 t/d<br />
+													</span>
+												</p>
+												<p style="font-size:16px;font-family:Arial;background-color:#FFFFFF;">
+													<span style="font-size:14px;">Amount:&nbsp;</span>
+												</p>
+												<p style="font-size:16px;font-family:Arial;background-color:#FFFFFF;">
+													<span style="font-size:14px;">&nbsp;&nbsp;&nbsp;&nbsp;3 sets (1st
+														project)<span
+															style="font-family:Arial;font-size:14px;background-color:#FFFFFF;">&nbsp;&nbsp;&nbsp;&nbsp;June,
+															2012</span></span>
+												</p>
+												<p style="font-size:16px;font-family:Arial;background-color:#FFFFFF;">
+													<span style="font-size:14px;"><span
+															style="font-family:Arial;font-size:14px;background-color:#FFFFFF;">&nbsp;&nbsp;&nbsp;&nbsp;4
+															sets&nbsp;</span><span
+															style="font-family:Arial;font-size:14px;background-color:#FFFFFF;">(2nd
+															project</span><span
+															style="font-family:Arial;font-size:14px;background-color:#FFFFFF;">)</span><span
+															style="font-family:Arial;font-size:14px;background-color:#FFFFFF;">&nbsp;
+															&nbsp; Aug, 2014</span></span>
+												</p>
+												<p style="font-size:16px;font-family:Arial;background-color:#FFFFFF;">
+													<span style="font-size:14px;"><span
+															style="font-family:Arial;font-size:14px;background-color:#FFFFFF;"></span><span
+															style="font-family:Arial;font-size:14px;background-color:#FFFFFF;">&nbsp;&nbsp;&nbsp;&nbsp;2
+															sets&nbsp;</span><span
+															style="font-family:Arial;font-size:14px;background-color:#FFFFFF;">(2nd
+															project</span><span
+															style="font-family:Arial;font-size:14px;background-color:#FFFFFF;">)</span><span
+															style="font-family:Arial;font-size:14px;background-color:#FFFFFF;">&nbsp;
+															&nbsp; Feb, 2018</span><span
+															style="font-family:Arial;font-size:14px;background-color:#FFFFFF;"></span><span
+															style="font-family:Arial;font-size:14px;background-color:#FFFFFF;"></span><br />
+													</span>
+												</p>
+												<p style="font-size:16px;font-family:Arial;background-color:#FFFFFF;">
+													<br />
+												</p> <a class="xqq"
+													href="index.php@g=home&amp;m=case&amp;a=show&amp;id=36.html">Brief
+													Introduction</a>
+											</div>
+											<div class="xqCases_right fr">
+												<img src="Uploads/202007/5f23c6cae7156.jpg">
+											</div>
+										</div>
+										<div class="swiper-slide swiper-slide-active" data-swiper-slide-index="0"
+											style="width: 725px; margin-right: 30px;">
+											<div class="xqCases_left fl">
+												<h5><a href="index.php@g=home&amp;m=case&amp;a=show&amp;id=35.html">Project
+														in Yunnan, China</a></h5>
+												<p>
+													<span
+														style="font-family:Arial;font-size:14px;background-color:#FFFFFF;">
+													</span>
+												</p>
+												<p style="font-size:16px;font-family:Arial;background-color:#FFFFFF;">
+													<span style="font-size:14px;">Model: DBLL10-50VG</span>
+												</p>
+												<p style="font-size:16px;font-family:Arial;background-color:#FFFFFF;">
+													<span style="font-size:14px;">Material:Crude Tin</span>
+												</p>
+												<p style="font-size:16px;font-family:Arial;background-color:#FFFFFF;">
+													<span style="font-size:14px;">Capacity: 15-20 t/d<br />
+													</span>
+												</p>
+												<p style="font-size:16px;font-family:Arial;background-color:#FFFFFF;">
+													<span style="font-size:14px;">Amount: 4 sets</span>
+												</p>
+												<p>
+													<br />
+												</p>
+												<p>
+													<br />
+												</p> <a class="xqq"
+													href="index.php@g=home&amp;m=case&amp;a=show&amp;id=35.html">Brief
+													Introduction</a>
+											</div>
+											<div class="xqCases_right fr">
+												<img src="Uploads/202007/5f22e9c958560.jpg">
+											</div>
+										</div>
+										<div class="swiper-slide swiper-slide-active" data-swiper-slide-index="0"
+											style="width: 725px; margin-right: 30px;">
+											<div class="xqCases_left fl">
+												<h5><a href="index.php@g=home&amp;m=case&amp;a=show&amp;id=34.html">Project
+														in USA</a></h5>
+												<p>
+													<span
+														style="font-family:Arial;font-size:14px;">&nbsp;<span></span></span><span
+														style="font-family:Arial;font-size:14px;">Model:
+														DBLL10-50VG</span><span
+														style="font-family:Arial;font-size:14px;"></span>
+												</p>
+												<p>
+													<span style="font-family:Arial;font-size:14px;">Material:Crude
+														Tin</span>
+												</p>
+												<p>
+													<span style="font-family:Arial;font-size:14px;">Capacity: 15-20
+														t/d<br />
+													</span>
+												</p>
+												<p>
+													<span style="font-size:14px;">Amount: 3 sets</span>
+												</p>
+												<p>
+													<span style="font-size:14px;">Purchase time: July, 2008</span>
+												</p> <a class="xqq"
+													href="index.php@g=home&amp;m=case&amp;a=show&amp;id=34.html">Brief
+													Introduction</a>
+											</div>
+											<div class="xqCases_right fr">
+												<img src="Uploads/202007/5f229882c6ef9.jpg">
+											</div>
+										</div>
+									</div>
+									<!-- Add Pagination -->
+									<div
+										class="swiper-pagination-anli swiper-pagination-clickable swiper-pagination-bullets">
+										<span
+											class="swiper-pagination-bullet swiper-pagination-bullet-active"></span><span
+											class="swiper-pagination-bullet"></span></div>
+									<!-- Add Arrows -->
+									<div class="swiper-button-next-anli hide"></div>
+									<div class="swiper-button-prev-anli hide"></div>
+								</div>
+							</div>
+							<!-- 案例轮播 -->
+						</div>
+					</div>
+					<!-- 联系 -->
+				</div>
+
+				<div class="vd_right">
+					<div class="vd_right1">
+						<h3>Products list</h3>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- 尾部 -->
+		<div class="foot">
+			<div class="box">
+				<!-- 尾部联系方式开始 -->
+				<div class="foot_left">
+					<dl>
+						<dt>
+							CHINA HEADQUARTERS
+						</dt>
+						<dd>
+							<div class="dddiv">
+								<p>
+									<b>Add:</b>25F, B-4, Guanming Business Center, No. 798 Zhongyi Rd, Yuhua, Changsha,
+									Hunan, China
+								</p>
+								<p>
+									<b>Tel:</b>86 0731 65152558
+								</p>
+								<p>
+									<b>Mobile:</b>86 173 0849 3887
+								</p>
+							</div>
+							<p class="mt20">
+								<b>Whats/Wechat：</b>173 0849 3887
+							</p>
+							<p>
+								<b>Email：</b><a href="mailto:smjaneyu@gmail.com"
+									target="_blank">smjaneyu@gmail.com</a><a href="mailto:smjaneyu@gmail.com"
+									target="_blank"><br />
+								</a>
+							</p>
+							<div>
+								<a href="mailto:smjaneyu@gmail.com" target="_blank"><br />
+								</a>
+							</div>
+							<p>
+								<br />
+							</p>
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+							PRODUCTION CENTER
+						</dt>
+						<dd>
+							<div class="dddiv">
+								<p>
+									<b>Add：</b>No.3 Puxinhu Center 4 Rd, Tangxia, Dongguan, Guangdong, China
+								</p>
+								<p>
+									<b>Tel：</b>86 0769 86959488
+								</p>
+								<p>
+									<b>Fax：</b>86 0769 86959398
+								</p>
+								<p>
+									<b>Mobile：</b>173 0849 3887 (Whatsapp/Wechat)
+								</p>
+								<p>
+									<b>Email：</b>smjaneyu@gmail.com
+								</p>
+							</div>
+						</dd>
+					</dl>
+				</div>
+				<!-- 尾部联系方式结束 -->
+
+				<!-- 尾部表单留言 -->
+				<div class="foot_right">
+					<dl>
+						<dt>CONTACT US</dt>
+						<dd>
+							<form name="myform" id="posttt" action="/net/sendMail" method="post">
+								<font id="foot_font">
+									<input type="hidden" name="title" value="" />
+									<input type="hidden" name="lang" value="2" />
+									<input type="text" id="username" name="name" class="foot_input Name"
+										placeholder="* Name" maxlength="30" required
+										oninvalid="setCustomValidity('Please fill in your name!');"
+										oninput="setCustomValidity('');"></input>
+									<input id="email" type="email" name="email" class="foot_input Email"
+										placeholder="* Email" maxlength="40" required
+										oninvalid="setCustomValidity('Please fill in your email!');"
+										oninput="setCustomValidity('');"></input>
+									<input type="text" id="telephone" name="phone" class="foot_input Phone"
+										placeholder="Phone" maxlength="20" required></input>
+									<textarea id="content" name="message" class="foot_textarea Message"
+										placeholder="Message" maxlength="300" required></textarea>
+									<input id="inputCode" type="text" name="code" class="foot_input"
+										placeholder="* code" maxlength="4" required
+										oninvalid="setCustomValidity('Please enter the verification code!');"
+										oninput="setCustomValidity('');" style="width:160px" ></input>
+									<img id="ggetcode" src="https://www.ym94.cn/net/getCode?code=8235"
+										onclick="flushCode()" title="Click to refresh the verification code!"
+										style="height: 33px;margin-bottom: -11px;" />
+								</font>
+							</form>
+							<div class="pr">
+								<button class="foot_submit" onclick="return submit()">SUBMIT</button>
+							</div>
+						</dd>
+					</dl>
+				</div>
+				<!-- 尾部表单留言结束 -->
+
+				<div class="Social">
+					<a href="index.php@g=home&amp;m=distillation&amp;a=show&amp;id=8.html"><img
+							src="Public/unionsum/images/facebook.png" /></a> <a
+						href="index.php@g=home&amp;m=distillation&amp;a=show&amp;id=8.html"><img
+							src="Public/unionsum/images/twitter.png" /></a> <a
+						href="index.php@g=home&amp;m=distillation&amp;a=show&amp;id=8.html"><img
+							src="Public/unionsum/images/instagram.png" /></a> <a
+						href="index.php@g=home&amp;m=distillation&amp;a=show&amp;id=8.html"><img
+							src="Public/unionsum/images/guge.png" /></a> <a
+						href="index.php@g=home&amp;m=distillation&amp;a=show&amp;id=8.html"></a><a
+						href="http://www.cssmindustry.com/www.baidu.com" target="_blank"></a><a
+						href="https://www.youtube.com/channel/UCoAPKGnbCJQN4-nPmyHA71g?view_as=subscriber"
+						target="_blank"><img src="Public/unionsum/images/youtube.png" /></a> <a
+						href="index.php@g=home&amp;m=distillation&amp;a=show&amp;id=8.html"><img
+							src="Public/unionsum/images/linkedin.png" /></a> <img
+						src="Public/unionsum/images/skype.png" />
+				</div>
+
+
+			</div>
+		</div>
+		<!-- Add Pagination -->
+		<div class="copyright">
+			<a style='color: #fff;' href="http://beian.miit.gov.cn">Hunan SM International Industrial Co., Ltd </a>
+
+			<a style='color: #fff;' href="https://beian.miit.gov.cn/" target="_blank">湘ICP备2021010568号</a>
+
+		</div>
+		<!-- 尾部 -->
+	</div>
+
+
+
+
+
+	<script type="text/javascript" src="Public/unionsum/js/jquery.min.js"></script>
+	<script type="text/javascript" src="Public/unionsum/js/common.js"></script>
+	<script type="text/javascript" src="Public/unionsum/js/swiper.js"></script>
+</body>
+
+</html>
+<script type="text/javascript" src="Public/unionsum/js/vd.js"></script>

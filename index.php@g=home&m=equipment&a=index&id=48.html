@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!-- Google Tag Manager -->
+	<script>
+		(function (w, d, s, l, i) {
+			w[l] = w[l] || [];
+			w[l].push({
+				'gtm.start': new Date().getTime(),
+				event: 'gtm.js'
+			});
+			var f = d.getElementsByTagName(s)[0],
+				j = d.createElement(s),
+				dl = l != 'dataLayer' ? '&l=' + l : '';
+			j.async = true;
+			j.src =
+				'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+			f.parentNode.insertBefore(j, f);
+		})(window, document, 'script', 'dataLayer', 'GTM-5B59D59');
+	</script>
+	<!-- End Google Tag Manager -->
+	<script>
+		// 
+		function getcode() {
+			//将数字、小写字母及大写字母输入
+			var str = "1234567890qwertyuioplkjhgfdsazxcvbnmQWERTYUIOPLKJHGFDSAZXCVBNM";
+			var res = '';
+			for (var i = 0; i < 4; i++) {
+				res += str[Math.floor(Math.random() * 60 + 2)];
+			}
+			return res;
+		}
+		var that = this;
+		var code = "8235";
+
+		function flushCode() {
+			let code = this.getcode()
+			that.code = code;
+			// 刷新
+			$("#ggetcode").attr('src', 'https://www.ym94.cn/net/getCode?code=' + code);
+		}
+		//开启跨域
+		function qsubmit() {
+			// alert(window.location.pathname);
+			// return false;
+
+			let qcode = $("#qcode").val();
+			let name = $("#qname").val();
+			let content = $("#qmessage").val();
+			let email = $("#qemail").val();
+			let telephone = $("#qTel").val();
+			let qcountry = $("#qcountry").val();
+			let qCompanyName = $("#qCompanyName").val();
+			$("#comeUrl").val(window.location.pathname);
+			// console.log($("#comeUrl").val());
+			if (that.code.toUpperCase() == qcode.toUpperCase()) {
+				if ('' == username) {
+					window.alert("please input you username!");
+					return false;
+				}
+				if ('' == email) {
+					window.alert("please input you email!");
+					return false;
+				}
+				if ('' == telephone) {
+					window.alert("please input telphone!");
+					return false;
+				}
+				if ('' == qcountry) {
+					window.alert("please input contry!");
+					return false;
+				}
+				if ('' == qCompanyName) {
+					window.alert("please input companyname!");
+					return false;
+				}
+
+				return true;
+			} else {
+				window.alert("Verification code error!");
+				return false;
+			}
+		}
+
+		function submit() {
+			let inputCode = $("#inputCode").val();
+			let username = $("#username").val();
+			let content = $("#content").val();
+			let email = $("#email").val();
+			let telephone = $("#telephone").val();
+			if (that.code.toUpperCase() == inputCode.toUpperCase()) {
+				if ('' == username) {
+					window.alert("please input you username!");
+					return false;
+				}
+				if ('' == email) {
+					window.alert("please input you email!");
+					return false;
+				}
+				if ('' == telephone) {
+					window.alert("please input telphone!");
+					return false;
+				}
+				if ('' == content) {
+					window.alert("please input content!");
+
+					return false;
+				}
+
+				if ('' == content) {
+					window.alert("please input content!");
+
+					return false;
+				}
+
+				$("#posttt").submit();
+				return true;
+			} else {
+				window.alert("Verification code error!");
+				return false;
+			}
+		}
+	</script>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1,minimum-scale=1.0,maximum-scale=1.0 ,user-scalable=no">
+	<title>Copper smelting equipment</title>
+	<link rel="stylesheet" type="text/css" href="Public/unionsum/css/base.css">
+	<link rel="stylesheet" type="text/css" href="Public/unionsum/css/css.css">
+</head>
+
+<body>
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5B59D59" height="0" width="0"
+			style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+	<!-- 头部开始 -->
+	<div class="head">
+		<div class="top box">
+			<div class="top-left">Welcome to SM Industry.</div>
+			<div class="top-right">
+
+				<div class="top-seek pr">
+					<div action="/index.html" method="get">
+						<select name="str">
+							<option value="page_25">EPC Service</option>
+							<option value="distillation_46">Equipment center</option>
+							<option value="equipment_27">Powder Coating</option>
+						</select>
+
+						<input class="inp" type="text" name="keyword" value="" placeholder="">
+						<button type="submit"><img src="Public/unionsum/images/sousuo.png"></button>
+					</div>
+				</div>
+
+				<div class="top-link">
+					<a href="index.php@g=home&amp;m=equipment&amp;a=index&amp;id=48.html"><img
+							src="Public/unionsum/images/facebook.png" /></a> <a
+						href="index.php@g=home&amp;m=equipment&amp;a=index&amp;id=48.html"><img
+							src="Public/unionsum/images/twitter.png" /></a> <a
+						href="index.php@g=home&amp;m=equipment&amp;a=index&amp;id=48.html"><img
+							src="Public/unionsum/images/instagram.png" /></a> <a
+						href="index.php@g=home&amp;m=equipment&amp;a=index&amp;id=48.html"><img
+							src="Public/unionsum/images/guge.png" /></a> <a
+						href="index.php@g=home&amp;m=equipment&amp;a=index&amp;id=48.html"></a><a
+						href="http://www.cssmindustry.com/www.baidu.com" target="_blank"></a><a
+						href="https://www.youtube.com/channel/UCoAPKGnbCJQN4-nPmyHA71g?view_as=subscriber"
+						target="_blank"><img src="Public/unionsum/images/youtube.png" /></a> <a
+						href="index.php@g=home&amp;m=equipment&amp;a=index&amp;id=48.html"><img
+							src="Public/unionsum/images/linkedin.png" /></a> <img
+						src="Public/unionsum/images/skype.png" />
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<div class="logo">
+		<span class="ico">&#xe790;</span>
+		<a href="index.html"><img src="Public/unionsum/images/logo.jpg" alt="联晟logo"></a>
+	</div>
+
+	<!-- 导航开始 -->
+	<div class="navbox">
+		<div class="box qc nav">
+			<ul class="qc" id="indexnav">
+				<li><a href="index.html" title="Home">Home</a></li>
+
+				<li><a href="index.php@m=distillation&amp;a=index&amp;id=46.html" title="EPC Service">EPC Service</a>
+				</li>
+				<li><a href="index.php@m=equipment&amp;a=index&amp;id=27.html" title="Equipment Center">Equipment
+						center</a></li>
+				<li><a href="index.php@m=page&amp;a=index&amp;id=25.html" title="Powder Coating">Powder Coating</a></li>
+				<li><a href="index.php@m=page&amp;a=index&amp;id=32.html" title="About Us">About Us</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- 移动端导航 -->
+	<div class="wapnavbox">
+		<div class="box qc nav">
+			<ul class="qc">
+				<li><a href="index.html" title="Home">Home</a></li>
+				<li><a href="index.php@m=distillation&amp;a=index&amp;id=46.html" title="EPC Service">EPC Service</a>
+				</li>
+				<li><a href="index.php@m=equipment&amp;a=index&amp;id=27.html" title="Equipment Center">Equipment
+						center</a></li>
+				<li><a href="index.php@m=page&amp;a=index&amp;id=25.html" title="Powder Coating">Powder Coating</a></li>
+				<li><a href="index.php@m=page&amp;a=index&amp;id=32.html" title="About Us">About Us</a></li>
+		</div>
+	</div>
+	<!-- 导航结束 -->
+	<!-- 头部结束 -->
+
+	<div class="right_w">
+		<!-- 头部banner -->
+		<div class="aboutus_banner top_banner">
+			<img src="Public/unionsum/img/equipment.jpg">
+		</div>
+		<!-- 头部banner -->
+
+
+		<!-- 面包屑 -->
+		<div class="box mbx">
+			<a href="index.php@g=home&amp;m=equipment&amp;a=index&amp;id=48.html">home</a>><a
+				href="index.php@g=home&amp;m=equipment&amp;a=index&amp;id=27.html">Equipment center</a> &gt; <a
+				href="index.php@g=home&amp;m=equipment&amp;a=index&amp;id=48.html">Copper smelting equipment</a></div>
+		<!-- 面包屑 -->
+
+		<!-- 设备列表 -->
+		<div class="equipment">
+			<div class="box qc">
+				<div class="equipment_nav_box">
+					<div class="equipment_nav">
+						<a href="index.php@g=home&amp;m=equipment&amp;a=index&amp;id=47.html">Lead smelting
+							equipment</a><a class="this"
+							href="index.php@g=home&amp;m=equipment&amp;a=index&amp;id=48.html">Copper smelting
+							equipment</a><a href="index.php@g=home&amp;m=equipment&amp;a=index&amp;id=50.html">Scrap
+							metal recyling</a><a
+							href="index.php@g=home&amp;m=equipment&amp;a=index&amp;id=51.html">Consumables</a> </div>
+				</div>
+
+				<div class="equipment_list">
+					<ul>
+						<li>
+							<a href="index.php@g=home&amp;m=equipment&amp;a=show&amp;id=20.html" title="">
+								<img src="Uploads/201803/5aa772715f8e5.jpg">
+								<h3>Fixed-type reverberatory furnace</h3>
+							</a>
+						</li>
+						<li>
+							<a href="index.php@g=home&amp;m=equipment&amp;a=show&amp;id=16.html" title="">
+								<img src="Uploads/201803/5aa87a184dfbf.jpg">
+								<h3>FRP tanks for copper EW/ER workshop</h3>
+							</a>
+						</li>
+						<li>
+							<a href="index.php@g=home&amp;m=equipment&amp;a=show&amp;id=22.html" title="">
+								<img src="Uploads/201803/5aa7840fafb06.jpg">
+								<h3>Tilting reverberatory furnace</h3>
+							</a>
+						</li>
+						<li>
+							<a href="index.php@g=home&amp;m=equipment&amp;a=show&amp;id=48.html" title="">
+								<img src="Uploads/201803/5aab2dd5a3303.jpg">
+								<h3>Copper fire-refining</h3>
+							</a>
+						</li>
+						<li>
+							<a href="index.php@g=home&amp;m=equipment&amp;a=show&amp;id=49.html" title="">
+								<img src="Uploads/201803/5aab25442e4bf.jpg">
+								<h3>Copper leaching-extraction-electrowinning</h3>
+							</a>
+						</li>
+						<li>
+							<a href="index.php@g=home&amp;m=equipment&amp;a=show&amp;id=50.html" title="">
+								<img src="Uploads/201803/5aab241bc6efa.jpg">
+								<h3>Copper electro-refining</h3>
+							</a>
+						</li>
+						<li>
+							<a href="index.php@g=home&amp;m=equipment&amp;a=show&amp;id=17.html" title="">
+								<img src="Uploads/201803/5aa87a657451f.jpg">
+								<h3>FRP electrolytic cell for copper EW/ER workshop</h3>
+							</a>
+						</li>
+						<li>
+							<a href="index.php@g=home&amp;m=equipment&amp;a=show&amp;id=23.html" title="">
+								<img src="Uploads/201803/5aa78992b7b3b.jpg">
+								<h3>Polymer concrete cell for copper EW/ER workshop</h3>
+							</a>
+						</li>
+						<li>
+							<a href="index.php@g=home&amp;m=equipment&amp;a=show&amp;id=28.html" title="">
+								<img src="Uploads/201803/5aa880eb1dc05.jpg">
+								<h3>Anode scrap washing machine</h3>
+							</a>
+						</li>
+						<li>
+							<a href="index.php@g=home&amp;m=equipment&amp;a=show&amp;id=29.html" title="">
+								<img src="Uploads/201803/5aa882483d8a9.jpg">
+								<h3>Electrolyte filtering machine unit</h3>
+							</a>
+						</li>
+						<li>
+							<a href="index.php@g=home&amp;m=equipment&amp;a=show&amp;id=31.html" title="">
+								<img src="Uploads/201803/5aa8c13351e99.jpg">
+								<h3>Copper anode preparing machine</h3>
+							</a>
+						</li>
+						<li>
+							<a href="index.php@g=home&amp;m=equipment&amp;a=show&amp;id=32.html" title="">
+								<img src="Uploads/201803/5aa8c2935ed72.jpg">
+								<h3>Copper cathode plate stripping machine</h3>
+							</a>
+						</li>
+						<li>
+							<a href="index.php@g=home&amp;m=equipment&amp;a=show&amp;id=33.html" title="">
+								<img src="Uploads/201803/5aa8c481398af.jpg">
+								<h3>Electro-refining workshop steam boiler</h3>
+							</a>
+						</li>
+						<li>
+							<a href="index.php@g=home&amp;m=equipment&amp;a=show&amp;id=41.html" title="">
+								<img src="Uploads/201803/5aa9ef49a90b0.jpg">
+								<h3>Copper anode casting wheel</h3>
+							</a>
+						</li>
+						<li>
+							<a href="index.php@g=home&amp;m=equipment&amp;a=show&amp;id=36.html" title="">
+								<img src="Uploads/201803/5aa9d4880dcd9.jpg">
+								<h3>Upward casting system for copper rods</h3>
+							</a>
+						</li>
+						<li>
+							<a href="index.php@g=home&m=equipment&a=show&id=36-07-13-add.html" title="">
+								<img src="Public/unionsum/img/07-13-2.png">
+								<h3>Filter Press</h3>
+							</a>
+						</li>
+					</ul>
+				</div>
+
+				<!-- pc端分页 -->
+				<div class="Pagination">
+					<ol>
+					</ol>
+				</div>
+
+			</div>
+		</div>
+		<!-- 设备列表 -->
+
+		<!-- 尾部 -->
+		<div class="foot">
+			<div class="box">
+				<!-- 尾部联系方式开始 -->
+				<div class="foot_left">
+					<dl>
+						<dt>
+							CHINA HEADQUARTERS
+						</dt>
+						<dd>
+							<div class="dddiv">
+								<p>
+									<b>Add:</b>25F, B-4, Guanming Business Center, No. 798 Zhongyi Rd, Yuhua, Changsha,
+									Hunan, China
+								</p>
+								<p>
+									<b>Tel:</b>86 0731 65152558
+								</p>
+								<p>
+									<b>Mobile:</b>86 173 0849 3887
+								</p>
+							</div>
+							<p class="mt20">
+								<b>Whats/Wechat：</b>173 0849 3887
+							</p>
+							<p>
+								<b>Email：</b><a href="mailto:smjaneyu@gmail.com"
+									target="_blank">smjaneyu@gmail.com</a><a href="mailto:smjaneyu@gmail.com"
+									target="_blank"><br />
+								</a>
+							</p>
+							<div>
+								<a href="mailto:smjaneyu@gmail.com" target="_blank"><br />
+								</a>
+							</div>
+							<p>
+								<br />
+							</p>
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+							PRODUCTION CENTER
+						</dt>
+						<dd>
+							<div class="dddiv">
+								<p>
+									<b>Add：</b>No.3 Puxinhu Center 4 Rd, Tangxia, Dongguan, Guangdong, China
+								</p>
+								<p>
+									<b>Tel：</b>86 0769 86959488
+								</p>
+								<p>
+									<b>Fax：</b>86 0769 86959398
+								</p>
+								<p>
+									<b>Mobile：</b>173 0849 3887 (Whatsapp/Wechat)
+								</p>
+								<p>
+									<b>Email：</b>smjaneyu@gmail.com
+								</p>
+							</div>
+						</dd>
+					</dl>
+				</div>
+				<!-- 尾部联系方式结束 -->
+
+				<!-- 尾部表单留言 -->
+				<div class="foot_right">
+					<dl>
+						<dt>CONTACT US</dt>
+						<dd>
+							<form name="myform" id="posttt" action="/net/sendMail" method="post">
+								<font id="foot_font">
+									<input type="hidden" name="title" value="" />
+									<input type="hidden" name="lang" value="2" />
+									<input type="text" id="username" name="name" class="foot_input Name"
+										placeholder="* Name" maxlength="30" required
+										oninvalid="setCustomValidity('Please fill in your name!');"
+										oninput="setCustomValidity('');"></input>
+									<input id="email" type="email" name="email" class="foot_input Email"
+										placeholder="* Email" maxlength="40" required
+										oninvalid="setCustomValidity('Please fill in your email!');"
+										oninput="setCustomValidity('');"></input>
+									<input type="text" id="telephone" name="phone" class="foot_input Phone"
+										placeholder="Phone" maxlength="20" required></input>
+									<textarea id="content" name="message" class="foot_textarea Message"
+										placeholder="Message" maxlength="300" required></textarea>
+									<input id="inputCode" type="text" name="code" class="foot_input"
+										placeholder="* code" maxlength="4" required
+										oninvalid="setCustomValidity('Please enter the verification code!');"
+										oninput="setCustomValidity('');" style="width:160px"></input>
+									<img id="ggetcode" src="https://www.ym94.cn/net/getCode?code=8235"
+										onclick="flushCode()" title="Click to refresh the verification code!"
+										style="height: 33px;margin-bottom: -11px;" />
+								</font>
+							</form>
+							<div class="pr">
+								<button class="foot_submit" onclick="return submit()">SUBMIT</button>
+							</div>
+						</dd>
+					</dl>
+				</div>
+				<!-- 尾部表单留言结束 -->
+
+				<div class="Social">
+					<a href="index.php@g=home&amp;m=equipment&amp;a=index&amp;id=48.html"><img
+							src="Public/unionsum/images/facebook.png" /></a> <a
+						href="index.php@g=home&amp;m=equipment&amp;a=index&amp;id=48.html"><img
+							src="Public/unionsum/images/twitter.png" /></a> <a
+						href="index.php@g=home&amp;m=equipment&amp;a=index&amp;id=48.html"><img
+							src="Public/unionsum/images/instagram.png" /></a> <a
+						href="index.php@g=home&amp;m=equipment&amp;a=index&amp;id=48.html"><img
+							src="Public/unionsum/images/guge.png" /></a> <a
+						href="index.php@g=home&amp;m=equipment&amp;a=index&amp;id=48.html"></a><a
+						href="http://www.cssmindustry.com/www.baidu.com" target="_blank"></a><a
+						href="https://www.youtube.com/channel/UCoAPKGnbCJQN4-nPmyHA71g?view_as=subscriber"
+						target="_blank"><img src="Public/unionsum/images/youtube.png" /></a> <a
+						href="index.php@g=home&amp;m=equipment&amp;a=index&amp;id=48.html"><img
+							src="Public/unionsum/images/linkedin.png" /></a> <img
+						src="Public/unionsum/images/skype.png" />
+				</div>
+
+
+			</div>
+		</div>
+		<!-- Add Pagination -->
+		<div class="copyright">
+			<a style='color: #fff;' href="http://beian.miit.gov.cn">Hunan SM International Industrial Co., Ltd </a>
+
+			<a style='color: #fff;' href="https://beian.miit.gov.cn/" target="_blank">湘ICP备2021010568号</a>
+
+		</div>
+		<!-- 尾部 -->
+	</div>
+
+
+
+
+
+	<script type="text/javascript" src="Public/unionsum/js/jquery.min.js"></script>
+	<script type="text/javascript" src="Public/unionsum/js/common.js"></script>
+	<script type="text/javascript" src="Public/unionsum/js/swiper.js"></script>
+</body>
+
+</html>
